@@ -1,0 +1,49 @@
+header img{
+  height: 30px;
+}
+
+body{
+  height: 10px;
+  padding: 30px;
+  margin-top: 80px;
+}
+
+header{
+  background-color: rgb(255, 255, 255);
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  padding: 20px;
+}
+
+header * {
+  display: inline;
+}
+
+header li{
+  margin: 5px
+}
+
+nav.nav-bar{
+  margin-left: auto;
+}
+
+img.img{
+  height: 470px;
+  width: auto;
+}
+
+div.bio-container{
+  display: flex;
+}
+
+footer{
+  padding:0;
+  text-align: center;
+  background-color:rosybrown;
+  font-size: 20px;
+}
